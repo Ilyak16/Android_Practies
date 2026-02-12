@@ -11,18 +11,24 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import ci.nsu.moble.main.ui.theme.PracticeTheme
+import ci.nsu.moble.main.ui.theme.*
 
+private val ColorsMap = mapOf(
+    "Red" to Red,
+    "Orange" to Orange,
+    "Blue" to Blue,
+    "Yellow" to Yellow,
+    "Violet" to Violet,
+    "Indigo" to Indigo,
+    "Green" to Green,
+)
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             PracticeTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                Main()
                     )
                 }
             }
@@ -31,7 +37,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Main(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier
