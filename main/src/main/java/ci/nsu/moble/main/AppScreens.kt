@@ -1,6 +1,7 @@
 package ci.nsu.moble.main
 
 import androidx.annotation.StringRes
+import ci.nsu.moble.main.R
 enum class AppScreens(@StringRes val title: Int){
     Screen1(title = R.string.screen1_title),
     Screen2(title = R.string.screen2_title),
