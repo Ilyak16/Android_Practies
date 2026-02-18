@@ -2,4 +2,9 @@
     <string name="app_name">main</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_color.kt">Color.kt</string>
+    <string name="screen1_title">Экран 1</string>
+    <string name="screen2_title">Экран 2</string>
+    <string name="screen3_title">Экран 3</string>
+    <string name="screen4_title">Экран 4</string>
+    <string name="screen5_title">Экран 5</string>
 </resources>
