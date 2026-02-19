@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ci.nsu.moble.main">  <!-- Оставляем вашу опечатку -->
+    package="ci.nsu.moble.main">
 
     <application
         android:allowBackup="true"
@@ -9,29 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Draft">
-
-        <!-- Удаляем эту неправильную запись -->
-        <!-- <activity android:name=".Color.kt" ... /> -->
-
-        <!-- Главная Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name">  <!-- Меняем label -->
+            android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Если есть вторая Activity, добавьте так -->
-        <!--
-        <activity
-            android:name=".SecondActivity"
-            android:exported="false"
-            android:label="Второй экран" />
-        -->
-
     </application>
 
 </manifest>
