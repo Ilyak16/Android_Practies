@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">main</string>
+    <string name="app_name">Practice</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_color.kt">Color.kt</string>
     <string name="screen1_title">Экран 1</string>
     <string name="screen2_title">Экран 2</string>
     <string name="screen3_title">Экран 3</string>
